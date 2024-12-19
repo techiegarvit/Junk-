@@ -1,4 +1,4 @@
-# Online Banking System
+# Online Banking System ( GUI Based )
 
 ## Overview
 The **Online Banking System** is a GUI-based banking application developed using **Core Java**, **Swing**, **AWT**, and **MySQL**. This system offers secure and interactive interfaces for both admins and customers to manage banking transactions, accounts, and more.
