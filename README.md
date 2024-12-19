@@ -1,47 +1,36 @@
-# Online Banking System Web Application
+# Online Banking System
 
 ## Overview
-The Online Banking System is a Java-based web application that allows users to perform banking operations such as viewing transactions, managing profiles, and accessing banking services. It features role-based access where:
-- **Admins** can manage user data, view transactions, and configure settings.
-- **Customers** can log in to manage their accounts, view transaction history, and perform various banking functions.
-
-The app is built with JSP for the front end, Java Servlets for the backend, and MySQL for data storage.
-
-## Project Structure
-The project follows a standard Maven structure, with packages structured as follows:
-- `src/main/java/com.bankapp`: Contains the main application code and servlets.
-- `src/main/java/com.bankapp.model`: Contains Java classes representing data models such as `User`.
-- `src/main/java/com.bankapp.dao`: Contains Data Access Objects (DAOs) for interacting with the database.
+The **Online Banking System** is a GUI-based banking application developed using **Core Java**, **Swing**, **AWT**, and **MySQL**. This system offers secure and interactive interfaces for both admins and customers to manage banking transactions, accounts, and more.
 
 ## Features
-1. **User Authentication**:
-   - Secure login for both admin and customer roles.
-   - Password hashing using `BCrypt` for secure storage.
 
-2. **Admin Functionalities**:
-   - View all user data.
-   - Access and review transaction records.
-   - Configure settings for system management.
+### Admin Features:
+1. **Admin Login**: Secure login for the admin using username and password.
+2. **Add/Delete/Update Account**: Manage user accounts by adding, deleting, or updating account details.
+3. **Withdrawal/Deposit/Statements Transaction**: Admin can perform transactions and view transaction statements.
+4. **Account Information**: View and manage detailed account information.
+5. **User Details List**: Display a list of all users registered in the system.
+6. **Active/Inactive Account**: Change the status of accounts to active or inactive as needed.
+7. **View Transaction Histories**: View detailed transaction histories for any account.
 
-3. **Customer Functionalities**:
-   - View transaction history.
-   - Perform transactions.
-   - Manage personal profile and settings.
-
-4. **Database Integration**:
-   - MySQL database to store user, transaction, and account data.
-   - Uses DAO pattern to interact with the database.
+### Customer Features:
+1. **User Login (PIN System)**: Login to the system using a secure PIN for added security.
+2. **Creating/Open New Account Registration**: Customers can create or register for a new account.
+3. **Funds Transfer (Local/International/Domestic)**: Perform various types of fund transfers, including local, international, and domestic transfers.
+4. **View Statements Transaction**: Customers can view their transaction history and statements.
+5. **User Account Details**: Access and update their personal account information.
+6. **Change Password and PIN**: Customers can change their login password and PIN for security purposes.
 
 ## Technologies Used
-- **Frontend**: JSP, HTML, CSS
-- **Backend**: Java, Servlets, JDBC, MySQL
-- **Libraries**: BCrypt for password hashing, JDBC for database connection
-- **Database**: MySQL
-- **Build Tool**: Maven
+- **Java (Core)**: For backend development and business logic.
+- **Swing & AWT**: For creating a user-friendly graphical interface.
+- **MySQL**: For database management and storing user data, transactions, and account details.
+- **JDBC**: For connecting Java application with the MySQL database.
+  
+## Installation
 
-## Installation and Setup
-
-1. **Clone the Repository**:
+1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/online-banking-system.git
-   cd online-banking-system
+   git clone https://github.com/techiegarvit/Online-Banking-System.git
+
